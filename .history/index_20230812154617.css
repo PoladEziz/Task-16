@@ -10,9 +10,9 @@
   min-height: 100vh;
   background: #28293e;
   padding: 92px 135px 117px 135px;
-  /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .main h2 {
   color: var(--text-light-accent, #ef6d58);
@@ -37,18 +37,17 @@
   line-height: 64px;
   letter-spacing: -1px;
 }
-.main nav ul {
+.main ul {
   margin-bottom: 68px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.main nav ul li {
+.main ul li {
   margin-right: 46px;
   display: flex;
-  color: aqua;
 }
-.main nav ul li a {
+.main ul li a {
   text-decoration: none;
   color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
   font-feature-settings: "clig" off, "liga" off;
@@ -58,7 +57,7 @@
   font-weight: 400;
   line-height: 32px;
 }
-.main nav ul li .first-li {
+.main ul li .first-li {
   text-decoration: none;
   color: var(--text-light-gray, #fff);
   font-feature-settings: "clig" off, "liga" off;
@@ -68,7 +67,7 @@
   font-weight: 400;
   line-height: 32px;
 }
-.main nav ul li p {
+.main ul li p {
   margin-left: 0.5px;
   color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
   text-align: center;
@@ -77,66 +76,27 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-}
-.main nav ul li:hover {
-  color: red;
+  line-height: 24px;
 }
 .main .top-box {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 32px;
 }
-.main .top-box .sofa {
-  width: 35%;
+.main .top-box .foto-1 {
+  width: 470px;
   height: 416px;
-  position: relative;
-  border: 3px solid green;
-}
-.main .top-box .sofa .foto-1 {
-  width: 100%;
-  height: 100%;
-}
-.main .top-box .sofa button {
-  width: 84px;
-  height: 38px;
-  position: absolute;
-  top: 261px;
-  left: 47px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 19px;
-  background: #fff;
-  color: var(--text-dark, #391400);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Epilogue;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-}
-.main .top-box .sofa p {
-  position: absolute;
-  left: 48px;
-  top: 317px;
-  color: var(--text-light, #fff);
-  font-feature-settings: "clig" off, "liga" off;
-  /* H3 */
-  font-family: Epilogue;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 48px; /* 120% */
-}
-.main .top-box .keyboard {
-  width: 63%;
-  height: 416px;
-  border: 3px solid green;
-}
-.main .top-box .keyboard .foto-2 {
-  width: 100%;
-  height: 100%;
   border-radius: 6px;
+  background: #5C2000;
+  margin-right: 30px;
+}
+.main .top-box .foto-2 {
+  width: 670px;
+  height: 416px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #5C2000;
 }
 .main .bot-box {
   width: 100%;
@@ -148,7 +108,7 @@
   width: 470px;
   height: 416px;
   border-radius: 6px;
-  background: #5c2000;
+  background: #5C2000;
   margin-left: 30px;
 }
 .main .bot-box .foto-3 {
@@ -156,17 +116,16 @@
   height: 416px;
   flex-shrink: 0;
   border-radius: 6px;
-  background: #5c2000;
+  background: #5C2000;
 }
 .main button {
   width: 170px;
   height: 48px;
-  margin: auto;
-  display: block;
+  margin-bottom: 208px;
   border-radius: 6px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #28293e;
-  color: #fff;
+  color: #FFF;
   text-align: center;
   font-family: Epilogue;
   font-size: 14px;

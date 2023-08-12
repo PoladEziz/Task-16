@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background: #28293e;
+    padding: 92px 135px 117px 135px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+    h2 {
+        color: var(--text-light-accent, #ef6d58);
+        text-align: center;
+        font-feature-settings: "clig" off, "liga" off;
+        font-family: Epilogue;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    h1 {
+        color: var(--text-light, #fff);
+        text-align: center;
+        font-feature-settings: "clig" off, "liga" off;
+        font-family: Epilogue;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 64px;
+        letter-spacing: -1px;
+    }
+nav{
+    ul {
+        margin-bottom: 68px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            position: relative;
+            margin-right: 46px;
+            display: flex;
+            a {
+                text-decoration: none;
+                color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
+                font-feature-settings: "clig" off, "liga" off;
+                font-family: Epilogue;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+            }
+
+            .first-li {
+                text-decoration: none;
+                color: var(--text-light-gray, #fff);
+                font-feature-settings: "clig" off, "liga" off;
+                font-family: Epilogue;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+            }
+
+            p {
+                position: absolute;
+                top: -5px;
+                right: -10px;
+                margin-left: 0.5px;
+                color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
+                text-align: center;
+                font-feature-settings: "clig" off, "liga" off;
+                font-family: Epilogue;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+            
+            }
+            color: aqua;
+            &:hover{
+                color: red;
+            }
+        }
+      
+    }
+
+}
+   
+    .top-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 32px;
+
+        .foto-1 {
+            width: 470px;
+            height: 416px;
+            border-radius: 6px;
+            background: #5C2000;
+            margin-right: 30px;
+        }
+
+        .foto-2 {
+            width: 670px;
+            height: 416px;
+            flex-shrink: 0;
+            border-radius: 6px;
+            background: #5C2000;
+        }
+    }
+
+    .bot-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 64px;
+
+        .foto-4 {
+            width: 470px;
+            height: 416px;
+            border-radius: 6px;
+            background: #5C2000;
+            margin-left: 30px;
+        }
+
+        .foto-3 {
+            width: 670px;
+            height: 416px;
+            flex-shrink: 0;
+            border-radius: 6px;
+            background: #5C2000;
+        }
+    }
+
+    button {
+        width: 170px;
+        height: 48px;
+        border-radius: 6px;
+        border: 1px solid rgba(255, 255, 255, 0.30);
+        background-color: #28293e;
+        color: #FFF;
+        text-align: center;
+        font-family: Epilogue;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+}

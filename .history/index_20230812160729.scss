@@ -108,7 +108,7 @@
         height: 38px;
         position: absolute;
         top: 261px;
-        left: 47px;
+        left: 64px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -121,20 +121,17 @@
         font-style: normal;
         font-weight: 400;
       }
-      p {
-        position: absolute;
-        left: 48px;
-        top: 317px;
+      p{
+        pos
+        color: var(--text-light, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
 
-        color: var(--text-light, #fff);
-        font-feature-settings: "clig" off, "liga" off;
-
-        /* H3 */
-        font-family: Epilogue;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 48px; /* 120% */
+/* H3 */
+font-family: Epilogue;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 48px; /* 120% */
       }
     }
     .keyboard {
@@ -175,8 +172,6 @@
   button {
     width: 170px;
     height: 48px;
-    margin: auto;
-    display: block;
     border-radius: 6px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: #28293e;
